@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12118"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingVC" customModule="YP" customModuleProvider="target">
+            <connections>
+                <outlet property="settingContentView" destination="Ggo-Of-lf3" id="nHb-xh-vfU"/>
+                <outlet property="topLevelView" destination="iRV-4H-qcH" id="cmV-GJ-eT6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iRV-4H-qcH" userLabel="TopLevelView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ggo-Of-lf3" userLabel="SettingContentView">
+                    <rect key="frame" x="0.0" y="300" width="375" height="367"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iRV-4H-qcH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4pM-4B-Pm5"/>
+                <constraint firstItem="Ggo-Of-lf3" firstAttribute="top" secondItem="iRV-4H-qcH" secondAttribute="bottom" id="4zB-H6-Os6"/>
+                <constraint firstAttribute="trailing" secondItem="iRV-4H-qcH" secondAttribute="trailing" id="F5U-Jb-Wff"/>
+                <constraint firstItem="iRV-4H-qcH" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.45" id="Ri1-6o-pMD"/>
+                <constraint firstAttribute="bottom" secondItem="Ggo-Of-lf3" secondAttribute="bottom" id="Ybc-FP-wKx"/>
+                <constraint firstItem="Ggo-Of-lf3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ZOZ-P0-J1f"/>
+                <constraint firstItem="iRV-4H-qcH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aa3-DW-k5b"/>
+                <constraint firstAttribute="trailing" secondItem="Ggo-Of-lf3" secondAttribute="trailing" id="fOO-y6-57D"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

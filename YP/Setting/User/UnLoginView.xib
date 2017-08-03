@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UnLoginView" customModule="YP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="283"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tbQ-MQ-esK">
+                    <rect key="frame" x="0.0" y="10" width="349" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Bg2-j8-Uoc"/>
+                    </constraints>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KG-k1-cRc">
+                    <rect key="frame" x="36" y="79" width="277" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ee6-rB-qWs"/>
+                    </constraints>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录后可以同步保留数据哦" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwT-NW-2Io">
+                    <rect key="frame" x="0.0" y="144" width="349" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="BTP-DB-nbs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="MwT-NW-2Io" secondAttribute="trailing" id="5rD-IQ-XhF"/>
+                <constraint firstAttribute="trailing" secondItem="8KG-k1-cRc" secondAttribute="trailing" constant="36" id="6uh-qU-Z0Y"/>
+                <constraint firstItem="MwT-NW-2Io" firstAttribute="top" secondItem="8KG-k1-cRc" secondAttribute="bottom" constant="25" id="L16-qy-hPA"/>
+                <constraint firstAttribute="trailing" secondItem="tbQ-MQ-esK" secondAttribute="trailing" id="MYK-vb-uEt"/>
+                <constraint firstItem="MwT-NW-2Io" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Pgg-9s-uGS"/>
+                <constraint firstItem="tbQ-MQ-esK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="m2e-9F-Z5k"/>
+                <constraint firstItem="8KG-k1-cRc" firstAttribute="top" secondItem="tbQ-MQ-esK" secondAttribute="bottom" constant="25" id="nw4-wU-kKN"/>
+                <constraint firstItem="tbQ-MQ-esK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oZI-rE-vU9"/>
+                <constraint firstItem="8KG-k1-cRc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="36" id="sDY-pW-Eln"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-56.5" y="-138.5"/>
+        </view>
+    </objects>
+</document>
