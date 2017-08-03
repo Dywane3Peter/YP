@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="39" id="EPJ-cY-4aV">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingCell" rowHeight="39" id="EPJ-cY-4aV" customClass="SettingCell" customModule="YP" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="319" height="39"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EPJ-cY-4aV" id="cd3-u6-k1Y">
@@ -74,6 +74,13 @@
                     <constraint firstItem="bXy-qL-cMc" firstAttribute="leading" secondItem="cd3-u6-k1Y" secondAttribute="leading" constant="20" id="jCE-YG-moX"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="centerLabel" destination="YjF-G4-45d" id="dtA-b2-W3s"/>
+                <outlet property="leftLabel" destination="bXy-qL-cMc" id="6Z2-BJ-EoW"/>
+                <outlet property="rightLabel" destination="C64-ZR-3lk" id="jjs-kY-8BZ"/>
+                <outlet property="settingSwitch" destination="6Gr-6f-XLS" id="2Q2-fb-feG"/>
+                <outlet property="textField" destination="hi2-g8-78U" id="4Fp-KX-1T0"/>
+            </connections>
             <point key="canvasLocation" x="-67.5" y="-95.5"/>
         </tableViewCell>
     </objects>
