@@ -24,9 +24,13 @@
                 </tableView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KG-k1-cRc">
                     <rect key="frame" x="36" y="79" width="277" height="40"/>
+                    <color key="backgroundColor" red="0.015686274509803921" green="0.70980392156862748" blue="0.42352941176470588" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="ee6-rB-qWs"/>
                     </constraints>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录后可以同步保留数据哦" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwT-NW-2Io">
                     <rect key="frame" x="0.0" y="144" width="349" height="32"/>
@@ -34,7 +38,7 @@
                         <constraint firstAttribute="height" constant="32" id="BTP-DB-nbs"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                    <nil key="textColor"/>
+                    <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
@@ -51,6 +55,11 @@
                 <constraint firstItem="8KG-k1-cRc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="36" id="sDY-pW-Eln"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="loginButton" destination="8KG-k1-cRc" id="dZQ-07-KUY"/>
+                <outlet property="loginLabel" destination="MwT-NW-2Io" id="TGo-Lp-GVR"/>
+                <outlet property="tableView" destination="tbQ-MQ-esK" id="y7K-eK-rNK"/>
+            </connections>
             <point key="canvasLocation" x="-56.5" y="-138.5"/>
         </view>
     </objects>

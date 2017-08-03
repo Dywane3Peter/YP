@@ -90,6 +90,7 @@
 		D09E5CDE1F331EA000298871 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09E5CDC1F331EA000298871 /* HomeVC.xib */; };
 		D09E5CE31F33295300298871 /* UnLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09E5CE21F33295300298871 /* UnLoginView.swift */; };
 		D09E5CE51F33295A00298871 /* UnLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09E5CE41F33295A00298871 /* UnLoginView.xib */; };
+		D09E5CE71F33357400298871 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09E5CE61F33357400298871 /* SettingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +200,7 @@
 		D09E5CDC1F331EA000298871 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		D09E5CE21F33295300298871 /* UnLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnLoginView.swift; sourceTree = "<group>"; };
 		D09E5CE41F33295A00298871 /* UnLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnLoginView.xib; sourceTree = "<group>"; };
+		D09E5CE61F33357400298871 /* SettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
 		D255C0AB6C45BBC12706BA8C /* Pods-YP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YP/Pods-YP.debug.xcconfig"; sourceTree = "<group>"; };
 		F6D4ECC9BDFB84FB66F0CB5B /* Pods_YP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -481,6 +483,7 @@
 			children = (
 				D09E5CE21F33295300298871 /* UnLoginView.swift */,
 				D09E5CE41F33295A00298871 /* UnLoginView.xib */,
+				D09E5CE61F33357400298871 /* SettingCell.xib */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -653,6 +656,7 @@
 				D09E5BD51F330DBC00298871 /* gril_6km.mp3 in Resources */,
 				D09E5CCA1F330F8C00298871 /* user_default_photo.png in Resources */,
 				D09E5BDA1F330DBC00298871 /* gril_speed_up_prompt.mp3 in Resources */,
+				D09E5CE71F33357400298871 /* SettingCell.xib in Resources */,
 				D09E5C841F330F8C00298871 /* 更多---Assistor.png in Resources */,
 				D09E5BD91F330DBC00298871 /* gril_keep_burning_fat.mp3 in Resources */,
 				D09E5C871F330F8C00298871 /* 设置按下.png in Resources */,
